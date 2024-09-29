@@ -67,7 +67,7 @@ A screen that handles data fetching, loading, and error states to display the me
 
 ### [React Native](https://reactnative.dev/) & [Expo](https://docs.expo.dev/faq/)
 
-The app has been built with React Native and Expo. Expo provides a suite of tools that make it easier to develop React Native applications. This app was created from the `create-expo-app` [Typescript template](https://docs.expo.dev/guides/typescript/#get-started), making it an [Expo-managed](https://docs.expo.dev/archive/managed-vs-bare/) app (one where devs can focus on writing JS/TS and offload the rest of the complexity of managing React Native apps to Expo tools and services).
+ This app was created from the `create-expo-app` `blank-typescript` template.
 
 ### [Expo StatusBar](https://docs.expo.dev/versions/latest/sdk/status-bar/)
 
@@ -79,7 +79,7 @@ A performant drop-in replacement for React Native's `Flatlist` component.
 
 ### [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 
-Provides programattic acess to device safe-area inset information to ensure content is not blocked behind notches, status bars, etc..
+Provides programattic access to device safe-area inset information to ensure content is not blocked behind notches, status bars, etc..
 
 ### [Prettier](https://prettier.io/)
 
