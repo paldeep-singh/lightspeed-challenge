@@ -2,6 +2,8 @@
 
 Demo:
 
+https://github.com/user-attachments/assets/e9098af3-fca4-4705-86b4-1df9f4f8f6d2
+
 The root of the app is in `App.tsx`.
 
 ## Running the app
@@ -40,7 +42,7 @@ Tests are written using [jest](https://jestjs.io/) (specifically, the [jest-expo
 
 Code for components can be found in the `components` folder. Their corresponding tests can be found in `components/__tests__`.
 
-## MenuItem
+### MenuItem
 
 A component for each item in a menu and add/subtracting quantity.
 
@@ -55,6 +57,11 @@ A simple text component with additional styling consistent with the design.
 ### Button
 
 A simple Button component making use of React Native's `Pressable` component.
+
+## Screens
+
+### Order Screen
+A screen that handles data fetching, loading, and error states to display the menu. It also displays the total cost of all menu items.
 
 ## Technologies/Libraries Used
 
