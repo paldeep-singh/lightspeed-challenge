@@ -69,7 +69,7 @@ function QuantityController({
         <Text>-</Text>
       </Pressable>
       <View style={[styles.quantity]}>
-        <Text>{quantity}</Text>
+        <Text bold>{quantity}</Text>
       </View>
       <Pressable
         style={({ pressed }) => [
@@ -104,7 +104,7 @@ export function MenuItem({
         id={id}
       />
       <View style={styles.price}>
-        <Text>${totalPrice}</Text>
+        <Text bold>${totalPrice}</Text>
       </View>
     </View>
   );

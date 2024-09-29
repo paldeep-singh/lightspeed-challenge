@@ -75,9 +75,13 @@ export function Menu({
         stickyHeaderIndices={[0]} // First item is the new order button
       />
       <View style={styles.priceTotal}>
-        <Text fontSize={24}>Total</Text>
+        <Text fontSize={24} bold>
+          Total
+        </Text>
 
-        <Text fontSize={24}>${totalPrice}</Text>
+        <Text fontSize={24} bold>
+          ${totalPrice}
+        </Text>
       </View>
     </View>
   );
