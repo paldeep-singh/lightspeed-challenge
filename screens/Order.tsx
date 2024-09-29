@@ -74,7 +74,7 @@ export function OrderScreen() {
     setMenuItems(
       menuItems.map((item) => {
         if (id === item.id) {
-          const quantity = item.quantity - 1;
+          const quantity = item.quantity === 0 ? 0 : item.quantity - 1;
           const totalPrice = (quantity * item.price).toFixed(2);
 
           return {
