@@ -37,10 +37,10 @@ export function OrderScreen() {
       const data = await response.json();
       setMenuItems(
         data.map((item: IProduct) => ({
-          quantity: 0,
+          quantity: 1,
           ...item,
           price: parseFloat(item.price),
-          totalPrice: "0.00",
+          totalPrice: item.price,
         }))
       );
       setLoading(false);
