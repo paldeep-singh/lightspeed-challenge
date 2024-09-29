@@ -7,7 +7,8 @@ interface ITheme {
   primaryHighlight: string;
   background: string;
   border: string;
-  accent: string;
+  secondary: string;
+  secondaryHighlight: string;
 }
 
 export const theme: ITheme = {
@@ -17,7 +18,8 @@ export const theme: ITheme = {
   primaryText: "#FFFFFF",
   background: "#FFFFFF",
   border: "#D3D3D3",
-  accent: "#D7DCE1",
+  secondary: "#D7DCE1",
+  secondaryHighlight: "#acb0b4",
 };
 
 export const ThemeContext = createContext<ITheme>(theme);
