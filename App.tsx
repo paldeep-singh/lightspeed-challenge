@@ -1,6 +1,7 @@
 import { theme, ThemeContext } from "./utils/theme";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { OrderScreen } from "./screens/Order";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <OrderScreen />
         </SafeAreaView>
       </SafeAreaProvider>
+      <StatusBar style="auto" />
     </ThemeContext.Provider>
   );
 }
