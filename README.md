@@ -61,7 +61,7 @@ A simple Button component making use of React Native's `Pressable` component.
 ## Screens
 
 ### Order Screen
-A screen that handles data fetching, loading, and error states to display the menu. It also displays the total cost of all menu items.
+A screen that handles data fetching, loading, and error states to display the menu.
 
 ## Technologies/Libraries Used
 
