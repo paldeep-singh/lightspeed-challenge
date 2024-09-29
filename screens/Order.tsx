@@ -40,7 +40,7 @@ export function OrderScreen() {
           quantity: 0,
           ...item,
           price: parseFloat(item.price),
-          totalPrice: "0",
+          totalPrice: "0.00",
         }))
       );
       setLoading(false);
