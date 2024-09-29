@@ -88,7 +88,3 @@ Opinionated code formatter.
 ### [ESLint](https://eslint.org/)
 
 Static analyser to identify code quality issues.
-
-### [prettier-eslint](https://github.com/prettier/prettier-eslint)
-
-Formats code using Prettier before fixing linting errors with ESLint.
