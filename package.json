@@ -2,7 +2,6 @@
   "name": "lightspeed-challenge",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
-  "type": "commonjs",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
