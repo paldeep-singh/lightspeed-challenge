@@ -9,6 +9,12 @@ const styles = StyleSheet.create({
   errorContainer: { flex: 1, alignItems: "center", justifyContent: "center" },
 });
 
+interface IProduct {
+  id: number;
+  name: string;
+  price: string;
+}
+
 export function OrderScreen() {
   const [menuItems, setMenuItems] = useState<
     {
@@ -30,7 +36,7 @@ export function OrderScreen() {
       const response = await fetch(PRODUCTS_ENDPOINT);
       const data = await response.json();
       setMenuItems(
-        data.map((item) => ({
+        data.map((item: IProduct) => ({
           quantity: 0,
           ...item,
           price: parseFloat(item.price),
