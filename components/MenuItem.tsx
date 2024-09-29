@@ -34,17 +34,19 @@ const styles = StyleSheet.create({
   price: { width: "25%", alignItems: "flex-end" },
 });
 
-export interface IMenuItemProps extends IQuantityController {
+export interface IMenuItem {
+  id: number;
   name: string;
+  quantity: number;
   totalPrice: string;
 }
 
-interface IQuantityController {
-  quantity: number;
+interface IQuantityController extends Pick<IMenuItem, "id" | "quantity"> {
   onAdd: (index: number) => void;
   onSubtract: (index: number) => void;
-  id: number;
 }
+
+export interface IMenuItemProps extends IQuantityController, IMenuItem {}
 
 function QuantityController({
   quantity,
